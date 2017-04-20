@@ -1,0 +1,49 @@
+{
+	"maps": [
+		{
+			"mapId": "mainMap",
+			"nodes": [
+				{
+					"id": 0,
+					"xPerc": 5,
+					"yPerc": 5,
+					"adjacentId": [1]
+				},
+				{
+					"id": 1,
+					"xPerc": 15,
+					"yPerc": 15,
+					"adjacentId": [0, 2]
+				},
+				{
+					"id": 2,
+					"xPerc": 25,
+					"yPerc": 25,
+					"adjacentId": [1]
+				}
+			]
+		},
+		{
+			"mapId": "subMap",
+			"nodes": [{
+					"id": 0,
+					"xPerc": 5,
+					"yPerc": 5,
+					"adjacentId": [1]
+				},
+				{
+					"id": 1,
+					"xPerc": 15,
+					"yPerc": 15,
+					"adjacentId": [0, 2]
+				},
+				{
+					"id": 2,
+					"xPerc": 25,
+					"yPerc": 25,
+					"adjacentId": [1]
+				}
+			]
+		}
+	]
+}
